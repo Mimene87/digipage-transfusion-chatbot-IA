@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>DIGIPAGE - Support Chatbot</title>
+    <!-- Intégration de pdf.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <!-- Intégration du fichier assistant.js -->
+    <script src="assistant.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #pdf-canvas {
+            border: 1px solid #ccc;
+            width: 100%;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <h1>DIGIPAGE - Visualisation du PDF</h1>
+    <canvas id="pdf-canvas"></canvas>
+</body>
+</html>
